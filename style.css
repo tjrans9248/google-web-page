@@ -1,0 +1,119 @@
+body{
+    display:contents;
+  }
+  
+  
+  .navbar{
+    float: right;
+    margin:20px;
+  }
+  .nav-item{
+    text-decoration: none;
+    color:black;
+    margin-right:20px;
+  }
+  .nav-item:hover{
+      text-decoration: underline
+  }
+  
+  .main{
+    margin-top:200px;
+    text-align:center; 
+  }
+  
+  .input-area{
+    margin-top:20px
+  }
+  
+  .input-box{
+    width:500px;
+    height:64px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  
+  .search-icon{
+    position: relative;
+    left:40px;
+    color: #9aa0a6;
+  }
+  
+  .mic-icon{
+    position: relative;
+    right:40px;
+    color: #9aa0a6;
+  }
+  
+  .button-area{
+    padding-top:18px;
+  }
+  
+  .buttion1{
+    background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      color: #3c4043;
+      font-family: Apple SD Gothic Neo,arial,sans-serif;
+      font-size: 14px;
+      margin: 11px 4px;
+      padding: 0 20px;
+      line-height: 27px;
+      height: 36px;
+      min-width: 54px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+  }
+  .buttion1:hover{
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+      background-color: #f8f9fa;
+      border: 1px solid #dadce0;
+      color: #202124;
+  }
+  
+  .bottom{
+      color: blue;
+      display: inline-block;
+      line-height: 28px;
+      text-decoration: none;
+  }
+  .bottom:hover{
+    text-decoration: underline
+  }
+  
+  .footer{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width:100%;
+  }
+  
+  .first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+  }
+  
+  .second-line{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+  }
+  
+  .second-line-second{
+    float:right;
+  }
+  
+  .footer-language{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+    text-decoration:none;
+  }
+  
+  .footer-language:hover{
+    text-decoration: underline
+  }
